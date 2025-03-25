@@ -1,5 +1,3 @@
-# welcome
-
 ## About Me
 Hi, I'm Koki. I'm interested in software engineering and currently learning the basics. This site tracks my progress as I explore various technologies and build small projects.
 
