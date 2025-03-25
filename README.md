@@ -1,3 +1,12 @@
+<a href="https://jekyll-themes.com/kokilabo/kokilabo-pages">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
+
+
 <header>
 
 <!--
