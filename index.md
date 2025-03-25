@@ -1,26 +1,31 @@
-# ようこそ
+# welcome
 
-## 自己紹介
+## About Me
 
-はじめまして、kokiです。専門分野/興味について情報を発信しています。
+Hi, I'm Koki. I'm interested in software engineering and currently learning the basics. This site tracks my progress as I explore various technologies and build small projects.
 
-## スキルと専門知識
+## Interests
+- Web Development
+- Low-Level Programming
+- CTF (Capture The Flag)
+- Machine Learning
 
-- **programming language**: [Python, C++]
-- Currently Learning:[javascript(node.js),RESTful API Development, etc.]
 
-## プロジェクト
+## skills
 
-### [プロジェクト名]
-[プロジェクトの簡単な説明。何を作ったのか、どんな技術を使ったのか、どんな問題を解決したのか。]
-- [GitHub リポジトリへのリンク]
-- [デモサイトへのリンク（あれば）]
+- **programming language**: Python, C++
+## Currently Learning
+- javascript(node.js)
+- RESTful API Development
 
-## ブログ
+## project
+I'll make the project public as soon as I finish it.
 
-ブログ記事は準備中です。今後、[トピック]に関する記事を定期的に投稿していく予定です。
+## blog
 
-## Socialmedia
+Blog articles are in the works. We plan to post technical articles on a regular basis in the future.
+
+## Social media
 - **GitHub**: [@kokilabo](https://github.com/kokilabo)
 - **Twitter**: [@kouchaweb](https://x.com/kouchaweb)
 
