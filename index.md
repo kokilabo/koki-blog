@@ -11,7 +11,7 @@ Hi, I'm Koki. I'm interested in software engineering and currently learning the 
 
 
 ## skills
-- **programming language**: Python, C++
+- **programming language**: Python, C++, Rust
   
 ## Currently Learning
 - javascript(node.js)
