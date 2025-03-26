@@ -5,17 +5,15 @@ Hi, I'm Koki. I'm interested in software engineering and currently learning the 
 
 ## Interests
 - Web Development
-- Low-Level Programming
-- CTF (Capture The Flag)
-- Machine Learning
 
 
 ## skills
-- **programming language**: Python, C++, Rust
+- **programming language**: Python, C++,
   
 ## Currently Learning
 - javascript(node.js)
 - RESTful API Development
+- Rust
 
 ## project
 I'll make the project public as soon as I finish it.
