@@ -33,6 +33,9 @@ jobs:
         with:
           ruby-version: '3.1' # Specify the Ruby version matching your project if known, otherwise use a recent stable version
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      # Add this step
+      - name: Bundle install
+        run: bundle install --jobs 4 --retry 3
       - name: Build with Jekyll
         run: bundle exec jekyll build --destination ./_site
         env:
