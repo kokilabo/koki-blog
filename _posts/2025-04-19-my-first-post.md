@@ -8,7 +8,7 @@ description:
 ## はじめまして
 
 はじめまして、Kokiと言います。
-私の詳細については[profile](https://kokilabo.github.io/koki-labo/profile/)を参照してください。
+私の詳細については[profile](https://kokilabo.github.io/koki-blog/profile/)を参照してください。
 
 ## このサイトはなに？
 このサイトでは私が日々インプットしたり、その中で理解したことをブログとして公開していくサイトです。
