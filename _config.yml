@@ -3,9 +3,9 @@ title: Koki Blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Koki Blog は、テクノロジー、プログラミング、生活に関する個人ブログです。
-baseurl: "/koki-labo"
+baseurl: "/koki-blog"
 url: "https://kokilabo.github.io"
-repository: kokilabo/koki-labo
+repository: kokilabo/koki-blog
 
 # Remote Theme Settings
 plugins:
