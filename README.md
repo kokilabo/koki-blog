@@ -1,4 +1,4 @@
-# koki-labo (Koki Blog)
+# koki-blog
 
 これは koki(kokilabo) の技術ブログリポジトリです。
 
