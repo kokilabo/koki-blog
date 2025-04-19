@@ -32,7 +32,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1' # Specify the Ruby version matching your project if known, otherwise use a recent stable version
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          # bundler-cache: true # Disable bundler cache
       # Add this step to remove lock file before install
       - name: Remove Gemfile.lock
         run: rm -f Gemfile.lock
