@@ -2,11 +2,25 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date: "%Y-%m-%d" }}</span>
-  {{ content }}
+<div class="post-wrapper">
+  <div class="post">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-date">{{ page.date | date: "%Y-%m-%d" }}</span>
+    {{ content }}
+  </div>
+
+  <aside class="toc-container">
+    <nav class="toc-nav">
+      <div class="toc-title">目次</div>
+      <div class="toc-list" id="toc">
+        <div class="toc-loading">目次を生成中...</div>
+      </div>
+    </nav>
+  </aside>
 </div>
+
+<link rel="stylesheet" href="/koki-labo/assets/css/toc.css">
+<script src="/koki-labo/assets/js/toc.js"></script>
 
 {% if site.related_posts.size >= 1 %}
 <div class="related">

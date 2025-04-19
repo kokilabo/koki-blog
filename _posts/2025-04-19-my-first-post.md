@@ -5,9 +5,6 @@ date: 2025-04-19
 tags:
 description:
 ---
-* TOC
-{:toc}
-
 ## はじめました
 
 はじめまして、Kokiと言います。
