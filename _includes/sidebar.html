@@ -1,0 +1,22 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+     <!-- Toggleable sidebar -->
+     <div class="sidebar" id="sidebar">
+       <div class="sidebar-item">
+         <p>{{ site.description }}</p>
+       </div>
+     
+       <nav class="sidebar-nav">
+         <!-- 希望のリンクを追加 -->
+         <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Blog</a> <!-- hrefを / に変更し、アクティブ表示を追加 -->
+         <a class="sidebar-nav-item" href="{{ '/profile/' | relative_url }}">Profile</a>
+       </nav>
+     
+       <div class="sidebar-item">
+         <p>
+           &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+         </p>
+       </div>
+     </div>

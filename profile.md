@@ -1,3 +1,9 @@
+---
+layout: page
+title: Profile
+permalink: /profile/
+---
+
 ## Welcome
 
 ## About Me
