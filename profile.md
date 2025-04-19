@@ -4,30 +4,38 @@ title: Profile
 permalink: /profile/
 ---
 
-## Welcome
+## ようこそ
 
-## About Me
-Hi, I'm Koki. I'm interested in software engineering and currently learning the basics. This site tracks my progress as I explore various technologies and build small projects.
+## 自己紹介
+こんにちは、Kokiです。ソフトウェアエンジニアリングに興味があり、現在基礎を学んでいます。このサイトでは、様々な技術を探求し、小さなプロジェクトを構築する中で、私の進捗状況を追跡しています。
 
-## Interests
-- Web Development
+## 興味関心
+- Web開発
+- コンピュータサイエンス
 
+## スキル
+- **OS**: Linux(2022年~2024年) MacOS(2024年~現在),
+- **プログラミング言語**: Python, C++,
+- **ツール**: Git, Github, Docker,
+- **LLM関連**: webアプリ経由(chatGPT,claude,gemini,grok) roocode(claude,gemini),Google Agent Development Kit (ADK)
+- **その他** : RaspberryP(VPN,DNS,piholeセットアップ)
 
-## skills
-- **programming language**: Python, C++,
-  
-## Currently Learning
+## 現在学習中
 - javascript(node.js)
-- RESTful API Development
-- Rust
+- RESTful API
+- クラウド
+
+## その他取り組み
+- 競技プログラミング : atcoder(灰色) Accepted66問
+
 
 ## project
-I'll make the project public as soon as I finish it.
+プロジェクトが完成次第公開します。
 
 ## blog
-Blog articles are in the works. We plan to post technical articles on a regular basis in the future.
+ブログ記事は現在作成中です。今後、定期的に技術記事を投稿していく予定です。
 
-## Social media
+## ソーシャルメディア
 - **GitHub**: [@kokilabo](https://github.com/kokilabo)
 - **Twitter**: [@kouchaweb](https://x.com/kouchaweb)
 
