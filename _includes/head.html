@@ -26,6 +26,20 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
+  <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBETXB5KFY"></script>
+ <script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-KBETXB5KFY');
+ </script>
+
+  
+
+
+
+  {% comment %}
   {% if site.google_analytics_id %}
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -36,4 +50,6 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+  {% endcomment %}
+
 </head>
