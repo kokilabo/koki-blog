@@ -6,12 +6,12 @@
   gap: 15px;
 }
 
-.page-header {
+.page-header { /* 詳細度を上げる */
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 15px; /* 下部マージンを減らしてタイトルを上に詰める */
 }
 
 .page-title {

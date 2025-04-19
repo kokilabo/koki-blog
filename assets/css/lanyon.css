@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 56em) {
   .container {
-    max-width: 42rem;
+    max-width: 55rem; /* 記事ページの幅を広げる */
   }
 }
 
@@ -157,7 +157,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .7
+    5rem; /* 14px */
   }
 }
 
@@ -555,4 +556,22 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+/* Add border and spacing to individual posts */
+.post {
+  border: 3px solid #eee; /* 輪郭線 */
+  padding: 1.4rem;       /* 内側の余白 */
+  margin-bottom: 2rem;   /* 記事間の下余白 */
+  border-radius: 10px;    /* 角を少し丸める */
+  background-color: #fff; /* 背景色 (テーマによっては不要かも) */
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1); /* 軽い影 */
+}
+/* Adjust title position within post border */
+.post .title {
+  margin-top: 0;
+}
+/* Add horizontal padding to post content area on post pages */
+.post-wrapper .post {
+  padding-left: 1.5rem;   /* 左側の余白 */
+  padding-right: 1.5rem;  /* 右側の余白 */
 }

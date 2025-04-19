@@ -28,12 +28,12 @@ title: Blog
     {% for post in site.posts %}
       <article class="post" data-date="{{ post.date | date: '%Y-%m-%d' }}">
         <h1 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+        <div class="date">{{ post.date | date: '%Y-%m-%d' }}</div>
 
         <div class="entry">
           {{ post.excerpt }}
         </div>
 
-        <div class="date" style="display:none;">{{ post.date | date: '%Y-%m-%d' }}</div>
         <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
       </article>
     {% endfor %}

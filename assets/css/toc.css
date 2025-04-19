@@ -1,21 +1,9 @@
-.post-wrapper {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.post {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-right: 320px;
-}
 
 .toc-container {
   position: fixed;
-  right: 20px;
+  right: 10px;
   top: 100px;
-  width: 280px;
+  width: 400px;
   max-height: calc(100vh - 140px);
   overflow-y: auto;
 }
@@ -96,18 +84,32 @@
   /* border-left: 1px solid #eee; Remove border */
 }
 
-.toc-list li { /* Add margin to list items */
-  margin: 6px 0;
-}
+/* .toc-list li { ... } - Definition moved and merged above */
 
 /* Style for different heading levels */
+.toc-list li li { /* Adjust padding for nested levels */
+  padding-left: 20px; /* Increase left padding for nested li */
+}
+
+.toc-list li li::before {
+  left: 5px; /* Adjust marker position for nested li */
+}
+
 .toc-list li li a { /* H3 level */
-  padding-left: 25px;
+  /* padding-left: 25px; Remove specific padding, handled by li */
   background: rgba(250,250,250,0.8);
 }
 
+.toc-list li li li { /* Adjust padding for deeper levels */
+   padding-left: 20px;
+}
+
+.toc-list li li li::before {
+  left: 5px; /* Adjust marker position */
+}
+
 .toc-list li li li a { /* H4 level (if used) */
-  padding-left: 35px;
+  /* padding-left: 35px; Remove specific padding */
   background: rgba(255,255,255,0.8);
 }
 
@@ -119,7 +121,7 @@
   .toc-container {
     position: static;
     width: 100%;
-    max-width: 800px;
+    max-width: 80px;
     margin: 30px auto 0;
   }
 }
