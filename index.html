@@ -2,18 +2,49 @@
 layout: default
 title: Blog
 ---
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<link rel="stylesheet" href="/koki-labo/assets/css/sort.css">
+
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+  <div id="sort-controls" class="modern-sort">
+    <div class="select-wrapper">
+      <select class="sort-select">
+        <option value="">並び替え</option>
+        <option value="title">タイトル順</option>
+        <option value="date">日付順（新しい順）</option>
+        <option value="date:desc">日付順（古い順）</option>
+      </select>
+      <i class="sort-icon">▼</i>
+    </div>
+  </div>
 
-      <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+  <div id="post-list">
+    {% for post in site.posts %}
+      <article class="post" data-date="{{ post.date | date: '%Y-%m-%d' }}">
+        <h1 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
 
-      <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+        <div class="date" style="display:none;">{{ post.date | date: '%Y-%m-%d' }}</div>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+      </article>
+    {% endfor %}
+  </div>
 </div>
+
+<script>
+  var options = {
+    valueNames: ['title', 'date'],
+    item: 'article.post'
+  };
+  var postList = new List('post-list', options);
+
+  document.querySelector('.sort-select').addEventListener('change', function() {
+    if(this.value) {
+      postList.sort(this.value);
+    }
+  });
+</script>
