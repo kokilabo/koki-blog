@@ -5,7 +5,7 @@ date: 2025-04-19
 tags:
 description:
 ---
-## はじめました
+## はじめまして
 
 はじめまして、Kokiと言います。
 私の詳細については[profile](https://kokilabo.github.io/koki-labo/profile/)を参照してください。
