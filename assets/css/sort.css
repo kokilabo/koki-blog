@@ -6,12 +6,12 @@
   gap: 15px;
 }
 
-.page-header { /* 詳細度を上げる */
+.page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 15px; /* 下部マージンを減らしてタイトルを上に詰める */
+  margin-bottom: 15px;
 }
 
 .page-title {
@@ -65,14 +65,22 @@
     align-items: flex-start;
     gap: 15px;
   }
-  
+
   .modern-sort {
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
   }
-  
+
   .select-wrapper {
-    width: 100%;
+    width: auto;
+    flex-grow: 1;
+    min-width: 150px;
     max-width: 100%;
+    margin-left: 0;
+  }
+  .sort-select {
+      padding: 8px 12px;
   }
 }
