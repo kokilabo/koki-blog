@@ -41,4 +41,42 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
+
+  // --- TOC Toggle Functionality for Mobile ---
+  const tocToggleButton = document.getElementById('toc-toggle-button');
+  const tocCloseButton = document.getElementById('toc-close-button');
+  const tocContainer = document.querySelector('.toc-container');
+  let tocOverlay = document.querySelector('.toc-overlay'); // Try to select existing overlay
+
+  // If overlay doesn't exist in HTML, create it dynamically
+  if (!tocOverlay) {
+    tocOverlay = document.createElement('div');
+    tocOverlay.classList.add('toc-overlay');
+    document.body.appendChild(tocOverlay); // Append it to the body
+  }
+
+
+  const toggleToc = () => {
+    if (tocContainer && tocOverlay) {
+      const isOpen = tocContainer.classList.contains('is-open');
+      tocContainer.classList.toggle('is-open', !isOpen);
+      tocOverlay.classList.toggle('is-open', !isOpen);
+      // Optional: Prevent body scroll when TOC is open
+      // document.body.style.overflow = isOpen ? '' : 'hidden';
+    }
+  };
+
+  if (tocToggleButton && tocCloseButton && tocContainer && tocOverlay) {
+    tocToggleButton.addEventListener('click', toggleToc);
+    tocCloseButton.addEventListener('click', toggleToc);
+    tocOverlay.addEventListener('click', toggleToc); // Close TOC when overlay is clicked
+  } else {
+    // Log error if elements are not found, helps debugging
+    if (!tocToggleButton) console.error('TOC Toggle Button not found');
+    if (!tocCloseButton) console.error('TOC Close Button not found');
+    if (!tocContainer) console.error('TOC Container not found');
+    // No error for overlay as it's created dynamically if needed
+  }
+  // --- End TOC Toggle Functionality ---
+
 });

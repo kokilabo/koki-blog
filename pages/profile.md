@@ -33,7 +33,7 @@ permalink: /profile/
 プロジェクトが完成次第公開します。
 
 ## blog
-ブログ記事は現在作成中です。今後、定期的に技術記事を投稿していく予定です。
+最近[blog](https://kokilabo.github.io/koki-blog/)を始めました。今後記事を投稿していくと思います。
 
 ## ソーシャルメディア
 - **GitHub**: [@kokilabo](https://github.com/kokilabo)
