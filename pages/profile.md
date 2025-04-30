@@ -7,7 +7,7 @@ permalink: /profile/
 ## ようこそ
 
 ## 自己紹介
-こんにちは、Kokiです。ソフトウェアエンジニアリングに興味があり、現在基礎を学んでいます。このサイトでは、私がインプットした技術やプロジェクトを進めていく中で得た知見をブログとしてアウトプットしていく場所です。
+こんにちは、Kokiです。ソフトウェアエンジニアリングに興味があり、日々学んでいます。このサイトでは、私がインプットした技術やプロジェクトを進めていく中で得た知見、、技術系に詳しくない人でもためになるAI,PC周りのことを情報を共有するブログです。
 
 ## スキル
 - **OS**: Linux(2022年~2024年) MacOS(2024年~現在),
@@ -36,12 +36,11 @@ permalink: /profile/
 ## project
 プロジェクトが完成次第公開します。
 
-## blog
-最近[blog](https://kokilabo.github.io/koki-blog/)を始めました。今後記事を投稿していくと思います。
 
-## ソーシャルメディア
+## URL
 - **GitHub**: [@kokilabo](https://github.com/kokilabo)
 - **Twitter**: [@kouchaweb](https://x.com/kouchaweb)
+- **Blog**: [koki-blog](https://kokilabo.github.io/koki-blog/)
 
 ---
 
