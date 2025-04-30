@@ -2,7 +2,6 @@
 title: Koki Blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  インドア派のテック備忘録。プログラミング、AI活用、PC周りの環境構築、ガジェットについて、日々の学びや「ちょっとした発見」をアウトプットしています。ゆるく、でも真面目に、試したことや考えたことを正直に記録・共有する場です。
 baseurl: "/koki-blog"
 url: "https://kokilabo.github.io"
 repository: kokilabo/koki-blog
